@@ -100,7 +100,6 @@
           font-size: 40px;
           font-family: 'Bangers', cursive;
           background: linear-gradient(90deg, rgba(50, 50, 48, 1) 50%, rgba(240, 219, 78, 1) 50%);
-          -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
       }
       
@@ -263,7 +262,6 @@
       
       #contato h2 {
           margin-left: 20px;
-          margin-width: 20px;
           margin-bottom: 20px;
           font-size: 2em;
           text-align: center;
