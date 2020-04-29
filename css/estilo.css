@@ -1,0 +1,393 @@
+      @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+      body {
+          font-family: "Handlee", "Dancing Script", cursive;
+          color: #4d4d4d;
+      }
+      
+      .container {
+          width: 100%;
+      }
+      
+      h1,
+      h2,
+      h3 {
+          margin: 0;
+          font-family: "Gochi Hand", "Helvetica", "Arial", sans-serif;
+          font-weight: 700;
+      }
+      
+      p {
+          font-family: "Dancing Script", "Handlee", cursive;
+      }
+      
+      h1 {
+          font-size: 4em;
+      }
+      
+      .logo img {
+          border-radius: 50%;
+      }
+      
+      nav {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          background-color: #fff;
+          padding: 30px;
+          border-bottom: 1px solid;
+      }
+      
+      nav>a {
+          font-family: 'Bangers', cursive;
+          text-decoration: none;
+          color: black;
+          font-size: 40px;
+          margin-top: 13px;
+          padding-left: 50px;
+          padding-right: 30px;
+          text-shadow: 3px 0px 0px rgb(116, 128, 117);
+      }
+      
+      nav ul {
+          list-style: none;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+      }
+      
+      nav ul li {
+          text-align: center;
+          width: 100%;
+          font-size: 1.5em;
+          padding: 2%;
+      }
+      
+      nav ul li a {
+          font-family: 'Bangers', cursive;
+          text-decoration: none;
+          color: black;
+          font-size: 20px;
+          margin-top: 13px;
+          padding-left: 50px;
+          padding-right: 30px;
+          text-shadow: 2px 0px 0px rgb(116, 128, 117);
+      }
+      
+      header {
+          background-image: url('/img/header.jpeg');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          color: #f1f1f1;
+          display: flex;
+          font-family: 'Bangers', cursive;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          padding: 30px;
+          position: relative;
+          border: 1px solid;
+      }
+      
+      header p {
+          margin-bottom: 2em;
+          font-size: 1.7em;
+      }
+      
+      .headerText {
+          font-size: 40px;
+          font-family: 'Bangers', cursive;
+          background: linear-gradient(90deg, rgba(50, 50, 48, 1) 50%, rgba(240, 219, 78, 1) 50%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+      }
+      
+      #sobre {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          align-items: center;
+          text-align: center;
+          background-color: #fff;
+          color: #4d4d4d;
+      }
+      
+      #sobre .botao {
+          margin-top: 20px;
+          background-color: #fff;
+          color: #4d4d4d;
+      }
+      
+      #sobre h2 {
+          margin: 20px;
+          font-size: 2em;
+          font-family: 'Bangers', cursive;
+      }
+      
+      .foto img {
+          width: 60%;
+      }
+      
+      .foto {
+          float: left;
+          width: 50%;
+      }
+      
+      .texto {
+          float: right;
+          font-family: 'Bangers', cursive;
+          width: 50%;
+      }
+      
+      .texto p {
+          line-height: 1.5;
+          margin: 2vh;
+          font-size: 1.2em;
+          font-family: 'Bangers', cursive;
+      }
+      
+      .nomeKaua {
+          font-family: 'Bangers', cursive;
+          text-decoration: none;
+          color: black;
+          font-size: 40px;
+          margin-top: 13px;
+          padding-left: 50px;
+          padding-right: 30px;
+          text-shadow: 3px 0px 0px rgb(116, 128, 117);
+      }
+      
+      .nomeKaua:hover {
+          font-family: 'Bangers', cursive;
+          color: black;
+          text-decoration: none;
+          margin-top: 13px;
+      }
+      
+      #servicos {
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          position: relative;
+          margin: 0 auto;
+      }
+      
+      #servicos div {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          margin-top: 30px;
+      }
+      
+      #servicos p {
+          line-height: 1.5;
+          margin: 2vh;
+          font-size: 1.2em;
+          font-family: 'Bangers', cursive;
+      }
+      
+      #servicos img {
+          margin: 10px 0;
+      }
+      
+      #servicos h2 {
+          font-size: 2em;
+          font-family: 'Bangers', cursive;
+      }
+      
+      #portfolio {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding-top: 20px;
+          margin-left: 20px;
+          font-family: 'Bangers', cursive;
+          margin-right: 20px;
+          place-content: center;
+      }
+      
+      #portfolio h2 {
+          margin-bottom: 20px;
+          margin-top: 10px;
+          font-size: 2em;
+          text-align: center;
+          font-family: 'Bangers', cursive;
+      }
+      
+      #portfolio h3 {
+          margin-bottom: 20px;
+          margin-top: 10px;
+          font-size: 1em;
+          text-align: center;
+          font-family: 'Bangers', cursive;
+      }
+      
+      #portfolio p {
+          margin-bottom: 20px;
+          margin-top: 10px;
+          font-size: 1em;
+          text-align: center;
+          font-family: 'Bangers', cursive;
+      }
+      
+      #portfolio a {
+          text-decoration: none;
+          font-family: 'Bangers', cursive;
+      }
+      
+      #portfolio img {
+          width: 100%;
+          margin-bottom: 0;
+      }
+      
+      #portfolio .port p {
+          margin-top: 0;
+          font-family: 'Bangers', cursive;
+          padding-right: 15px;
+          padding-left: 15px;
+          line-height: 1.5;
+      }
+      
+      #contato {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          background-color: #fff;
+          width: 100%;
+      }
+      
+      #contato h2 {
+          margin-left: 20px;
+          margin-width: 20px;
+          margin-bottom: 20px;
+          font-size: 2em;
+          text-align: center;
+          color: #fff;
+      }
+      
+      #contato>p {
+          margin-bottom: 20px;
+          font-size: 1.2em;
+          color: #fff;
+          text-align: center;
+      }
+      
+      #contato a {
+          text-decoration: none;
+          color: #fff;
+          font-family: 'Bangers', cursive;
+          text-align: center;
+      }
+      
+      footer {
+          text-align: center;
+          width: 100%;
+          background-color: white;
+          color: black;
+          padding-top: 20px;
+          padding-bottom: 20px;
+      }
+      
+      @media screen and (min-width: 768px) {
+          nav {
+              flex-direction: row;
+              justify-content: space-around;
+          }
+          nav ul {
+              flex-direction: row;
+              width: 70%;
+          }
+          header {
+              height: 600px;
+              height: 60vh;
+              justify-content: center;
+          }
+          #sobre {
+              flex-direction: row;
+              flex-wrap: wrap;
+              align-items: flex-start;
+              height: 90vh;
+              justify-content: center;
+              min-height: 80vh;
+          }
+          #sobre div {
+              flex-grow: 1;
+              flex-basis: 300px;
+              padding: 0 10px;
+          }
+          #sobre h2 {
+              text-align: center;
+              width: 100%;
+          }
+          #servicos {
+              flex-direction: row;
+              flex-wrap: wrap;
+              align-items: flex-start;
+              max-width: 1000px;
+              margin: 0 auto;
+          }
+          #servicos h2 {
+              text-align: center;
+              width: 100%;
+          }
+          #servicos div {
+              flex-grow: 1;
+              flex-basis: 150px;
+              padding: 0 10px;
+          }
+          #portfolio {
+              flex-direction: row;
+              flex-wrap: wrap;
+          }
+          #portfolio h2 {
+              width: 100%;
+              text-align: center;
+          }
+          #portfolio h3 {
+              width: 100%;
+              text-align: center;
+          }
+          #portfolio .port {
+              width: 33.3333333333%;
+              text-align: center;
+          }
+          #contato {
+              flex-direction: row;
+              flex-wrap: wrap;
+              justify-content: space-around;
+              max-width: 100%;
+              margin: 0 auto;
+              text-align: center;
+              max-height: 30vh;
+              width: 100%;
+          }
+          #contato h2,
+          #contato p {
+              width: 100%;
+              text-align: center;
+          }
+      }
+      
+      .imagens {
+          width: 80px;
+          height: 80px;
+          border-radius: 360px;
+          border: 2px solid;
+      }
+      
+      .imagemK {
+          border-radius: 360px;
+          border: 2px solid;
+      }
+      
+      .container {
+          width: 100%;
+          height: 100vh;
+          scroll-behavior: smooth;
+          overflow-y: scroll;
+      }
