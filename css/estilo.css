@@ -12,14 +12,8 @@
       h2,
       h3 {
           margin: 0;
-          font-family: "Gochi Hand", "Helvetica", "Arial", sans-serif;
           font-weight: 700;
       }
-      
-      p {
-          font-family: "Dancing Script", "Handlee", cursive;
-      }
-      
       h1 {
           font-size: 4em;
       }
@@ -99,8 +93,8 @@
       .headerText {
           font-size: 40px;
           font-family: 'Bangers', cursive;
-          background: linear-gradient(90deg, rgba(50, 50, 48, 1) 50%, rgba(240, 219, 78, 1) 50%);
-          -webkit-text-fill-color: transparent;
+          color: white;
+           text-shadow:6px 4px 4px black;
       }
       
       #sobre {
@@ -351,7 +345,7 @@
               text-align: center;
           }
           #portfolio .port {
-              width: 33.3333333333%;
+              width: 33%;
               text-align: center;
           }
           #contato {
